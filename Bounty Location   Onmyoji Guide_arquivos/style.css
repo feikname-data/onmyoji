@@ -1,0 +1,377 @@
+/*
+Theme Name: Divi
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Version: 3.0.45
+Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+Tags: responsive-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready
+License: GNU General Public License v2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+/* Browser Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+blockquote {
+	margin: 20px 0 30px;
+	padding-left: 20px;
+	border-left: 5px solid;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+article,
+aside,
+footer,
+header,
+hgroup,
+nav,
+section {
+	display: block;
+}
+
+/* Basic Styles */
+/* Body */
+body {
+	color: #666;
+	background-color: #fff;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1.7em;
+}
+
+body.et_non_fixed_nav.et_transparent_nav.et_boxed_layout #page-container,
+body.et_fixed_nav.et_boxed_layout #page-container {
+	padding-top: 80px;
+}
+
+body.page-template-page-template-blank-php #page-container {
+	padding-top: 0 !important;
+}
+
+body.et_cover_background {
+	background-repeat: no-repeat !important;
+	background-attachment: fixed;
+	background-position: top center !important;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	background-size: cover !important;
+}
+
+/* Links */
+a {
+	color: #2ea3f2;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* Inline Elements */
+p {
+	padding-bottom: 1em;
+}
+
+p:last-of-type {
+	padding-bottom: 0;
+}
+
+p.et_normal_padding {
+	padding-bottom: 1em;
+}
+
+strong {
+	font-weight: bold;
+}
+
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+pre,
+code {
+	margin-bottom: 10px;
+	font-family: Courier New, monospace;
+}
+
+ins {
+	text-decoration: none;
+}
+
+sup,
+sub {
+	position: relative;
+	height: 0;
+	line-height: 1;
+	vertical-align: baseline;
+}
+
+sup {
+	bottom: 0.8em;
+}
+
+sub {
+	top: 0.3em;
+}
+
+dl {
+	margin: 0 0 1.5em 0;
+}
+
+dl dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 1.5em;
+}
+
+blockquote p {
+	padding-bottom: 0;
+}
+
+embed,
+iframe,
+object,
+video {
+	max-width: 100%;
+}
+
+/* Headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding-bottom: 10px;
+	color: #333;
+	font-weight: 500;
+	line-height: 1em;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+
+
+
+.et-search-form,
+.nav li ul,
+.et_mobile_menu,
+.footer-widget li:before,
+blockquote {
+	border-color: #2ea3f2;
+}
+
+#top-header,
+#et-secondary-nav li ul {
+	background-color: #2ea3f2;
+}
+
+/* Containers */
+#main-content {
+	background-color: #fff;
+}
+
+#main-header {
+	-webkit-transition: background-color 0.4s, color 0.4s, transform 0.4s, opacity 0.4s ease-in-out;
+	-moz-transition: background-color 0.4s, color 0.4s, transform 0.4s, opacity 0.4s ease-in-out;
+	transition: background-color 0.4s, color 0.4s, transform 0.4s, opacity 0.4s ease-in-out;
+}
+
+.container {
+	position: relative;
+	width: 80%;
+	max-width: 1080px;
+	margin: auto;
+}
+
+#main-content .container {
+	padding-top: 58px;
+}
+
+.et_full_width_page #main-content .container:before,
+.et_full_width_portfolio_page #main-content .container:before {
+	display: none;
+}
+
+.et_boxed_layout #page-container,
+.et_boxed_layout.et_non_fixed_nav.et_transparent_nav #page-container #top-header,
+.et_non_fixed_nav.et_transparent_nav.et_boxed_layout #page-container #main-header,
+.et_fixed_nav.et_boxed_layout #page-container #top-header,
+.et_fixed_nav.et_boxed_layout #page-container #main-header,
+.et_boxed_layout #page-container .container,
+.et_boxed_layout #page-container .et_pb_row,
+.et_boxed_layout.et_pb_pagebuilder_layout.single.et_full_width_page #page-container .et_pb_row,
+.et_boxed_layout.et_pb_pagebuilder_layout.single.et_full_width_portfolio_page #page-container .et_pb_row,
+.et_boxed_layout.et_pb_pagebuilder_layout.single #page-container .et_pb_row {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+
+/* Title margin bottom */
+.main_title {
+	margin-bottom: 20px;
+}
+
+
+/* Table Styles */
+.entry-content table,
+body.et-pb-preview #main-content .container table {
+	width: 100%;
+	margin: 0 0 15px 0;
+	border: 1px solid #eee;
+	text-align: left;
+}
+
+.entry-content tr th,
+.entry-content thead th,
+body.et-pb-preview #main-content .container tr th,
+body.et-pb-preview #main-content .container thead th {
+	padding: 9px 24px;
+	color: #555;
+	font-weight: bold;
+}
+
+.entry-content tr td,
+body.et-pb-preview #main-content .container tr td {
+	padding: 6px 24px;
+	border-top: 1px solid #eee;
+}
