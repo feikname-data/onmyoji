@@ -136,27 +136,7 @@ body {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 500;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 	line-height: 1.7em;
-}
-
-body.et_non_fixed_nav.et_transparent_nav.et_boxed_layout #page-container,
-body.et_fixed_nav.et_boxed_layout #page-container {
-	padding-top: 80px;
-}
-
-body.page-template-page-template-blank-php #page-container {
-	padding-top: 0 !important;
-}
-
-body.et_cover_background {
-	background-repeat: no-repeat !important;
-	background-attachment: fixed;
-	background-position: top center !important;
-	-webkit-background-size: cover !important;
-	-moz-background-size: cover !important;
-	background-size: cover !important;
 }
 
 /* Links */
@@ -176,10 +156,6 @@ p {
 
 p:last-of-type {
 	padding-bottom: 0;
-}
-
-p.et_normal_padding {
-	padding-bottom: 1em;
 }
 
 strong {
@@ -287,22 +263,6 @@ h6 {
 	font-size: 14px;
 }
 
-
-
-
-.et-search-form,
-.nav li ul,
-.et_mobile_menu,
-.footer-widget li:before,
-blockquote {
-	border-color: #2ea3f2;
-}
-
-#top-header,
-#et-secondary-nav li ul {
-	background-color: #2ea3f2;
-}
-
 /* Containers */
 #main-content {
 	background-color: #fff;
@@ -325,32 +285,10 @@ blockquote {
 	padding-top: 58px;
 }
 
-.et_full_width_page #main-content .container:before,
-.et_full_width_portfolio_page #main-content .container:before {
-	display: none;
-}
-
-.et_boxed_layout #page-container,
-.et_boxed_layout.et_non_fixed_nav.et_transparent_nav #page-container #top-header,
-.et_non_fixed_nav.et_transparent_nav.et_boxed_layout #page-container #main-header,
-.et_fixed_nav.et_boxed_layout #page-container #top-header,
-.et_fixed_nav.et_boxed_layout #page-container #main-header,
-.et_boxed_layout #page-container .container,
-.et_boxed_layout #page-container .et_pb_row,
-.et_boxed_layout.et_pb_pagebuilder_layout.single.et_full_width_page #page-container .et_pb_row,
-.et_boxed_layout.et_pb_pagebuilder_layout.single.et_full_width_portfolio_page #page-container .et_pb_row,
-.et_boxed_layout.et_pb_pagebuilder_layout.single #page-container .et_pb_row {
-	width: 90%;
-	max-width: 1200px;
-	margin: auto;
-}
-
-
 /* Title margin bottom */
 .main_title {
 	margin-bottom: 20px;
 }
-
 
 /* Table Styles */
 .entry-content table,
