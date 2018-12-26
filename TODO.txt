@@ -3,3 +3,4 @@ Finish basic review for each entry
 Verify all location information
 Improve search
 Publish online
+Confirm chapter 2 info of parasite
