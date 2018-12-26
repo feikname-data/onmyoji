@@ -4,3 +4,4 @@ Verify all location information
 Improve search
 Publish online
 Confirm chapter 2 info of parasite
+Add furigana to all jp names where possible
