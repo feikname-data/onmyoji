@@ -313,3 +313,8 @@ body.et-pb-preview #main-content .container tr td {
 	padding: 6px 24px;
 	border-top: 1px solid #eee;
 }
+
+/* Misc. */
+.red { color: red; }
+span.unconfirmed-eq { color: firebrick; opacity: 0.6; }
+div.unconfirmed-entries, span.unconfirmed-entry { opacity: 0.6; }
