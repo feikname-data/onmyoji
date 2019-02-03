@@ -1,5 +1,27 @@
+bounty_location.html
+--------------------
 Verify all location information
-Improve search
-Publish online
-Confirm chapter 2 info of parasite
+ * Confirm chapter 2 info of parasite
+Add own search
 Add furigana to all jp names where possible
+Replace "?" with the missing info
+
+data/shikigami_battles/
+-----------------------
+Add the newest secret zone
+Add Encounter information not available in bounty_location.html yet
+Add Demon Encounter bosses
+
+data/bios/
+----------
+Add information about all bios I unlocked
+
+res/
+----
+Complete missing shikigami thumbnails
+Add WebP version of all images
+Move shikigami thumbnails to res/thumbnails
+
+*.html
+------
+Add favicon
