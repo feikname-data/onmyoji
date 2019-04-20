@@ -24,4 +24,4 @@ Move shikigami thumbnails to res/thumbnails
 
 *.html
 ------
-Add favicon
+Use own CSS
