@@ -323,3 +323,7 @@ span.us, span.jp { color: royalblue; font-size: 0.7em; vertical-align: super; }
 span.us::after { content: "  (US)"; }
 span.jp::after { content: "  (JP)"; }
 span.us.jp::after { content: " (US / JP)"; }
+td:first-child { font-size: 1.5em; }
+/* td:nth-child(2) { font-size: 1.5em; } */
+rb:nth-child(even), rt:nth-child(even), .re { color: forestgreen; }
+rb:nth-child(odd), rt:nth-child(odd), .ro { color: indigo; }
