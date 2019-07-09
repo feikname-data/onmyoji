@@ -6,9 +6,9 @@ Possible(certain?) drops include:
 
  * 20 pts: 3k Coins, Realm Challenge Pass
  * 40 pts: Demon Parade Pass, Broken Amulet
- * 60 pts: 5k Coins, 5 Medal, 1 Paper Fan
- * 80 pts: 5 Orochi Scale, 20 AP, 1 Moon Realm Card
- * 100 pts: 20 Jade, 20 Sakuramochi, 1 Flower
+ * 60 pts: 5k Coins, 5 Medal, Paper Fan
+ * 80 pts: 5 Orochi Scale, 20 AP, Moon Realm Card
+ * 100 pts: 20 Jade, 20 Sakuramochi, Flower
 
 ## Points by category
 
@@ -48,16 +48,16 @@ Possible(certain?) drops include:
 **Official description:** Send friends hearts.
 
  1. 2 pts
- 2. N/A
- 3. N/A
- 4. N/A
- 5. N/A
+ 2. 2 pts
+ 3. 2 pts
+ 4. 2 pts
+ 5. 2 pts
 
 ### Fullfill a Wish
 **Official description:** Make donations
 
  1. 10 pts
- 2. N/A
+ 2. 2 pts
  3. N/A
  4. N/A
  5. N/A
@@ -83,12 +83,12 @@ Possible(certain?) drops include:
 **Official description:** Clear Exploration zones.
 
  1. 12 pts
- 2. N/A
- 3. N/A
- 4. N/A
- 5. N/A
- 6. N/A
- 7. N/A
+ 2. 12 pts
+ 3. 12 pts
+ 4. 6 pts
+ 5. 6 pts
+ 6. 6 pts
+ 7. 6 pts
 
 ### Evolution Challenge
 **Official description:** Clear Evo zones.
