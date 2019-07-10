@@ -94,18 +94,18 @@ Possible(certain?) drops include:
 **Official description:** Clear Evo zones.
 
  1. 6 pts
- 2. N/A
- 3. N/A
- 4. N/A
- 5. N/A
- 6. N/A
- 7. N/A
- 8. N/A
- 9. N/A
- 10. N/A
- 11. N/A
- 12. N/A
- 13. N/A
+ 2. 2 pts
+ 3. 2 pts
+ 4. 2 pts
+ 5. 2 pts
+ 6. 2 pts
+ 7. 2 pts
+ 8. 2 pts
+ 9. 2 pts
+ 10. 2 pts
+ 11. 2 pts
+ 12. 2 pts
+ 13. 2 pts
 
 ### Soul Challenge
 **Official description:** Clear Soul zones.
