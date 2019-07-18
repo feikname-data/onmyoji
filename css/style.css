@@ -324,6 +324,8 @@ span.us::after { content: "  (US)"; }
 span.jp::after { content: "  (JP)"; }
 span.us.jp::after { content: " (US / JP)"; }
 td:first-child { font-size: 1.5em; }
-/* td:nth-child(2) { font-size: 1.5em; } */
 rt:nth-child(even) { color: forestgreen; }
 rt:nth-child(odd) { color: lightcoral; }
+
+tr { display: block; float: left; width: 100%; }
+th, td { display: block; width: auto; }
