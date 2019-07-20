@@ -319,10 +319,6 @@ body.et-pb-preview #main-content .container tr td {
 span.unconfirmed-eq { color: firebrick; }
 div.unconfirmed-entries, span.unconfirmed-entry { opacity: 0.6; }
 i:empty::before { content: "プレースホルダー"; font-size: 0.5em; }
-span.us, span.jp { color: royalblue; font-size: 0.7em; vertical-align: super; }
-span.us::after { content: "  (US)"; }
-span.jp::after { content: "  (JP)"; }
-span.us.jp::after { content: " (US / JP)"; }
 td:first-child { font-size: 1.5em; }
 rt:nth-child(even) { color: forestgreen; }
 rt:nth-child(odd) { color: lightcoral; }
