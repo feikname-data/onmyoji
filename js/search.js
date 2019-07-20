@@ -78,17 +78,17 @@ function buildsearchIndex() {
 } 
 
 function searchAndShowResults(e) {
-	var results = searchIndexForShikigami.filter(a => a.includes(search_box.value.toLowerCase()))
-	resultsIndexes = []
+	var shikigamiResults = searchIndexForShikigami.filter(x => x.includes(search_box.value.toLowerCase()))
+	shikigamiResultsIndexes = []
 	
-	for(result of results) {
-		resultsIndexes.push(searchIndexForShikigami.indexOf(result))
+	for(shikigamiResult of shikigamiResults) {
+		shikigamiResultsIndexes.push(searchIndexForShikigami.indexOf(shikigamiResult))
 	}
 	
 	let DOMTable = document.querySelectorAll("tbody > tr")
 	let i=0
 	for(let tableRow of DOMTable) {
-		if(resultsIndexes.indexOf(i) > -1) {
+		if(shikigamiResultsIndexes.indexOf(i) > -1) {
 			tableRow.style.display=""
 		} else {
 			tableRow.style.display="none"
@@ -96,5 +96,5 @@ function searchAndShowResults(e) {
 		
 		i++
 	}
-	DOMTable[resultsIndexes[0]].scrollIntoView()
+	DOMTable[shikigamiResultsIndexes[0]].scrollIntoView()
 }
