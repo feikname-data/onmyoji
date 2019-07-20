@@ -18,6 +18,7 @@ function keydown(e) {
     if(e.key == "f" && e.ctrlKey) {
         e.preventDefault()
 
+        search_box.select();
         search_box.focus()
         search_box.scrollIntoView()
     }
