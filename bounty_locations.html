@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Bounty Locations | Onmyoji Info</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/tablepress-combined.css">
+    <link rel="stylesheet" href="css/style.css" async>
+    <link rel="stylesheet" href="css/tablepress-combined.css" async>
+    <script src="js/search.js"></script>
     <link rel="icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -33,7 +34,16 @@
     are ones I did not yet confirm if that half is the equivalent in the other language.<br>
     <i></i> is used as placeholder for missing japanese info.
 </p>
-<p>Last update: Jul 19, 2019: fix and confirm Mouba hints</p><br>
+<p>Last update: Jul 19, 2019: implement a basic search system</p>
+
+<div id="search_div">
+    <input type="text" placeholder="Use ctrl+F to focus here whenever" disabled>
+    <input type="button" value="Search">
+    <input type="checkbox" id="shikigami" disabled checked><label for="shikigami">Shikigami</label>
+    <input type="checkbox" id="hints" disabled><label for="hints">Hints</label>
+    <input type="checkbox" id="romaji" disabled><label for="romaji">Romaji</label>
+</div>
+
 <div class="dataTables_wrapper no-footer">
 <table class="tablepress">
 <thead>
@@ -44,7 +54,7 @@
     </tr>
 </thead>
 <tbody class="row-hover">
-    <tr class="even">
+    <tr class="even" data-name="Lantern Soul">
         <td>
             <img src="res/lantern-soul.png"><br>Lantern Soul<br><br>
             <!-- 提灯お化け (ちょうちんおばけ / chouchin'obake) -->
@@ -72,7 +82,7 @@
             Youko's Romance - Stage One has 3
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Akashita">
         <td>
             <img src="res/akashita.png"><br>Akashita<br><br>
             <!-- 赤舌 (あかした / akashita) -->
@@ -98,7 +108,7 @@
             Youko's Romance - Stage Two has 1
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Red Imp">
         <td>
             <img src="res/red-imp.png"><br>Red Imp<br><br>
             <!-- 天邪鬼赤 (あまのじゃくあか / amanojakuaka) -->
@@ -130,7 +140,7 @@
             Youko's Romance - Stage One has 3, Stage Five has 1
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Green Imp">
         <td>
             <img src="res/green-imp.png"><br>Green Imp<br><br>
             <!-- 天邪鬼赤 (あまのじゃくみどり / amanojakumidori) -->
@@ -155,7 +165,7 @@
             Youko's Romance - Stage One has 1
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Yellow Imp">
         <td>
             <img src="res/yellow-imp.png"><br>Yellow Imp<br><br>
             <!-- 天邪鬼赤 (あまのじゃくき / amanojakuki) -->
@@ -187,7 +197,7 @@
             Youko's Romance - Stage Four has 2, Stage Five has 1
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Hahakigami">
         <td>
             <img src="res/hahakigami.png"><br>Hahakigami<br><br>
             <!-- 箒神 (ほうきがみ / houkigami) -->
@@ -215,7 +225,7 @@
             Youko's Romance - Stage Four has 3
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Blue Imp">
         <td>
             <img src="res/blue-imp.png"><br>Blue Imp<br><br>
             <!-- 天邪鬼青 (あまのじゃくあお / amanojakuao) -->
@@ -251,7 +261,7 @@
             Youko's Romance - Stage Five has 3
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Parasite">
         <td>
             <img src="res/parasite.png"><br>Parasite<br><br>
             <!-- 寄生霊 (きせいれい / kiseirei) -->
@@ -274,7 +284,7 @@
             Youko's Romance - Stage Two has 3
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Umbrella">
         <td>
             <img src="res/umbrella.png"><br>Umbrella<br><br>
             <!-- からかさ小僧 (からかさこぞう / karakasakozou) -->
@@ -297,7 +307,7 @@
             Youko's Romance - Stage Three has 3
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Grave Digger">
         <td>
             <img src="res/grave-digger.png"><br>Grave Digger<br><br>
             <!-- 墓荒らしの霊 (はかあらしのれい / hakaarashinorei ) -->
@@ -320,7 +330,7 @@
             Youko's Romance - Stage Two has 3
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Lantern Boy">
         <td>
             <img src="res/lantern-boy.png"><br>Lantern Boy<br><br>
             <!-- 提灯小僧 (ちょうちんこぞう / chouchinkozou) -->
@@ -345,7 +355,7 @@
             Youko's Romance - Stage One has 1
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Nurikabe">
         <td>
             <img src="res/nurikabe.png"><br>Nurikabe<br><br>
             <!-- ぬりかべ -->
@@ -383,7 +393,7 @@
             Youko's Romance - Stage One has 3
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Black Panther">
         <td>
             <img src="res/black-panther.png"><br>Black Panther<br><br>
             <!-- -->
@@ -395,7 +405,7 @@
             <span class="red">[Recommended]</span> Riverside Tales - Stage Four has 3
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Zombie Dog">
         <td>
             <img src="res/zombie-dog.png"><br>Zombie Dog<br><br>
             <!-- -->
@@ -410,7 +420,7 @@
             Blood Moon Rises - Stage Five has 3
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Mio">
         <td>
             <img src="res/mio.png"><br>Mio<br><br>
             <!-- 三尾の狐 (さん>びのきつね / sanbinokitsune) -->
@@ -442,7 +452,7 @@
             Youko's Romance - Stage Five has 2
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Zashiki">
         <td>
             <img src="res/zashiki.png"><br>Zashiki<br><br>
             <!-- 座敷童子 (ざしきわらし / zashikiwarashi) -->
@@ -468,7 +478,7 @@
             Youko's Romance - Stage Seven has 2
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Koi">
         <td>
             <img src="res/koi.png"><br>Koi<br><br>
             <!-- 鯉の精 (こいのせい / koinosei) -->
@@ -497,7 +507,7 @@
             Youko's Romance - Stage Five has 1
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Kyuumei Neko">
         <td>
             <img src="res/kyuumei-neko.png"><br>Kyuumei Neko<br><br>
             <!-- 九命猫 (きゅうめいねこ / kyuumeineko) -->
@@ -518,7 +528,7 @@
             Youko's Romance - Stage Five has 2
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Tanuki">
         <td>
             <img src="res/tanuki.png"><br>Tanuki<br><br>
             <!-- 化け狸 (ばけたぬき / baketanuki) -->
@@ -539,7 +549,7 @@
             Youko's Romance - Stage Five has 2, Stage Six has 3
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Kappa">
         <td>
             <img src="res/kappa.png"><br>Kappa<br><br>
             <!-- 河童 (かっぱ / kappa) -->
@@ -571,7 +581,7 @@
             Youko's Romance - Stage Seven has 2
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Oguna">
         <td>
             <img src="res/oguna.png"><br>Oguna<br><br>
             <!-- 童男 (おぐな / oguna) -->
@@ -596,7 +606,7 @@
             Youko's Romance - Stage Seven has 1
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Doujo">
         <td>
             <img src="res/doujo.png"><br>Doujo<br><br>
             <!-- 童女 (どうじょ  / doujo) -->
@@ -625,7 +635,7 @@
             Youko's Romance - Stage Seven has 2
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Gaki">
         <td>
             <img src="res/gaki.png"><br>Gaki<br><br>
             <!-- 餓鬼 (がき / gaki) -->
@@ -646,7 +656,7 @@
             Youko's Romance - Stage Six has 2
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Kodokushi">
         <td>
             <img src="res/kodokushi.png"><br>Kodokushi<br><br>
             <!-- 蠱毒師 (こどくし / kodokushi) -->
@@ -668,7 +678,7 @@
             Blood Moon Rises - Stage Two has 1
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Karasu Tengu">
         <td>
             <img src="res/karasu-tengu.png"><br>Karasu Tengu<br><br>
             <!-- -->
@@ -702,7 +712,7 @@
             Youko's Romance - Stage Three has 1
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Kamikui">
         <td>
             <img src="res/kamikui.png"><br>Kamikui<br><br>
             <!-- -->
@@ -722,7 +732,7 @@
             Youko's Romance - Stage Two has 1
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Kusa">
         <td>
             <img src="res/kusa.png"><br>Kusa<br><br>
             <!-- -->
@@ -754,7 +764,7 @@
             Youko's Romance - Stage Six has 2
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Warrior Soul">
         <td>
             <img src="res/warrior-soul.png"><br>Warrior Soul<br><br>
             <!-- -->
@@ -772,7 +782,7 @@
             Youko's Romance - Stage Two has 1
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Kyonshi Imoto">
         <td>
             <img src="res/kyonshi-imoto.png"><br>Kyonshi Imoto<br><br>
             <!-- -->
@@ -792,7 +802,7 @@
             Youko's Romance - Stages Three/Five/Ten have 1 each
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Samurai X">
         <td>
             <img src="res/samurai-x.png"><br>Samurai X<br><br>
             <!-- -->
@@ -826,7 +836,7 @@
             Youko's Romance - Stages Six/Ten have 1 each
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Ushi no Toki">
         <td>
             <img src="res/ushi-no-toki.png"><br>Ushi no Toki<br><br>
             <!-- -->
@@ -857,7 +867,7 @@
             Youko's Romance - Stage Six has 2, Stage Nine has 1
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Hitotsume">
         <td>
             <img src="res/hitotsume.png"><br>Hitotsume<br><br>
             <!-- -->
@@ -882,7 +892,7 @@
             Youko's Romance - Stage Two has 1
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Tesso">
         <td>
             <img src="res/tesso.png"><br>Tesso<br><br>
             <!-- -->
@@ -898,7 +908,7 @@
             Youko's Romance - Stage Seven has 1
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Shouzu">
         <td>
             <img src="res/shouzu.png"><br>Shouzu<br><br>
             <!-- -->
@@ -929,7 +939,7 @@
             Youko's Romance - Stage Seven has 1
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Ame Onna">
         <td>
             <img src="res/ame-onna.png"><br>Ame Onna<br><br>
             <!-- -->
@@ -953,7 +963,7 @@
             Youko's Romance - Stage Four has 1
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Kanko">
         <td>
             <img src="res/kanko.png"><br>Kanko<br><br>
             <!-- -->
@@ -977,7 +987,7 @@
             Youko's Romance - Stage Six has 3
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Yamausagi">
         <td>
             <img src="res/yamausagi.png"><br>Yamausagi<br><br>
             <!-- -->
@@ -1000,7 +1010,7 @@
             Youko's Romance - Stage Six has 1, Stage Nine has 5
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Chocho">
         <td>
             <img src="res/chocho.png"><br>Chocho<br><br>
             <!-- -->
@@ -1034,7 +1044,7 @@
             Youko's Romance - Stage Two has 1
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Yamawaro">
         <td>
             <img src="res/yamawaro.png"><br>Yamawaro<br><br>
             <!-- -->
@@ -1064,7 +1074,7 @@
             Youko's Romance - Stage Four has 4, Stage Seven has 2
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Kubinashi">
         <td>
             <img src="res/kubinashi.png"><br>Kubinashi<br><br>
             <!-- -->
@@ -1082,7 +1092,7 @@
             Youko's Romance - Stage Four has 1
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Satori">
         <td>
             <img src="res/satori.png"><br>Satori<br><br>
             <!-- -->
@@ -1104,7 +1114,7 @@
             Blood Moon Rises - Stage Ten has 2
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Jikikaeru">
         <td>
             <img src="res/jikikaeru.png"><br>Jikikaeru<br><br>
             <!-- -->
@@ -1133,7 +1143,7 @@
             Youko's Romance - Stages Four/Ten have 1 each
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Yuki Onna">
         <td>
             <img src="res/yuki-onna.png"><br>Yuki Onna<br><br>
             <!-- -->
@@ -1150,7 +1160,7 @@
             Youko's Romance - Stage Seven has 1
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Inugami">
         <td>
             <img src="res/inugami.png"><br>Inugami<br><br>
             <!-- -->
@@ -1176,7 +1186,7 @@
             Youko's Romance - Stage Eight has 1
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Hone Onna">
         <td>
             <img src="res/hone-onna.png"><br>Hone Onna<br><br>
             <!-- -->
@@ -1211,7 +1221,7 @@
             Youko's Romance - Stage Eight has 1
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Umibozu">
         <td>
             <img src="res/umibozu.png"><br>Umibozu<br><br>
             <!-- -->
@@ -1244,7 +1254,7 @@
             Youko's Romance - Stage Ten has 1
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Kyonshi Ani">
         <td>
             <img src="res/kyonshi-ani.png"><br>Kyonshi Ani<br><br>
             <!-- -->
@@ -1272,7 +1282,7 @@
             Youko's Romance - Stage Ten has 5
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Puppeteer">
         <td>
             <img src="res/puppeteer.png"><br>Puppeteer<br><br>
             <!-- -->
@@ -1293,7 +1303,7 @@
             Youko's Romance - Stage Eight has 2
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Momiji">
         <td>
             <img src="res/momiji.png"><br>Momiji<br><br>
             <!-- -->
@@ -1315,7 +1325,7 @@
             Youko's Romance - Stage Eight has 2
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Hangan">
         <td>
             <img src="res/hangan.png"><br>Hangan<br><br>
             <!-- -->
@@ -1335,7 +1345,7 @@
             Blood Moon Rises - Stage Ten has 1
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Sakura">
         <td>
             <img src="res/sakura.png"><br>Sakura<br><br>
             <!-- -->
@@ -1352,7 +1362,7 @@
             Youko's Romance - Stage Eight has 1
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Yumekui">
         <td>
             <img src="res/yumekui.png"><br>Yumekui<br><br>
             <!-- -->
@@ -1374,7 +1384,7 @@
             Youko's Romance - Stage Nine has 1
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Hououka">
         <td>
             <img src="res/hououka.png"><br>Hououka<br><br>
             <!-- -->
@@ -1392,7 +1402,7 @@
             Tender of Sea - Stage Ten has 1
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Momo">
         <td>
             <img src="res/momo.png"><br>Momo<br><br>
             <!-- -->
@@ -1417,7 +1427,7 @@
             Youko's Romance - Stage Seven has 1
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Mouba">
         <td>
             <img src="res/mouba.png"><br>Mouba<br><br>
             <!-- -->
@@ -1442,7 +1452,7 @@
             Youko's Romance - Stage Ten has 1
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Vampira">
         <td>
             <img src="res/vampira.png"><br>Vampira<br><br>
             <!-- -->
@@ -1472,7 +1482,7 @@
             Blood Moon Rises - Stages One to Nine have 1 each
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Kuro Mujou">
         <td>
             <img src="res/kuro-mujou.png"><br>Kuro Mujou<br><br>
             <!-- -->
@@ -1500,7 +1510,7 @@
             Blood Moon Rises - Stage Ten has 1
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Shiro Mujou">
         <td>
             <img src="res/shiro-mujou.png"><br>Shiro Mujou<br><br>
             <!-- -->
@@ -1528,7 +1538,7 @@
             Blood Moon Rises - Stage Nine has 2, Stage Ten has 1
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Kamaitachi">
         <td>
             <img src="res/kamaitachi.png"><br>Kamaitachi<br><br>
             <!-- -->
@@ -1557,7 +1567,7 @@
             Tender of Sea - Stages Eight/Ten have 1 each
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Youko">
         <td>
             <img src="res/youko.png"><br>Youko<br><br>
             <!-- -->
@@ -1585,7 +1595,7 @@
             Youko's Romance - Stages One to Ten have 1 each
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Ootengu">
         <td>
             <img src="res/ootengu.png"><br>Ootengu<br><br>
             <!-- -->
@@ -1617,7 +1627,7 @@
             Aoandon Tales - Stages Nine/Ten have 1 each
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Shuten Doji">
         <td>
             <img src="res/shuten-doji.png"><br>Shuten Doji<br><br>
             <!-- -->
@@ -1633,7 +1643,7 @@
             Ubume's Shield - Stage Eight has 2<br>
         </td>
     </tr>
-    <tr class="even">
+    <tr class="even" data-name="Enma">
         <td>
             <img src="res/enma.png"><br>Enma<br><br>
             <!-- -->
@@ -1657,7 +1667,7 @@
             Blood Moon Rises - Stage Ten has 1
         </td>
     </tr>
-    <tr class="odd">
+    <tr class="odd" data-name="Lord Arakawa">
         <td>
             <img src="res/lord-arakawa.png"><br>Lord Arakawa<br><br>
             <!-- -->
@@ -1674,7 +1684,7 @@
     </tr>
 </tbody>
 </table>
-<div class="dataTables_info">Showing 1 to 64 of 64 entries</div><br><br>
+<br>
 <p>
   <b>Information regarding this page reliabity:</b><br>
   Furigana complete: 22 of 64 this table entries (42 missing)<br>
@@ -1683,7 +1693,7 @@
   Secret Zones certainly not included here: Life of Higanbana, Kiyohime's Grudge, Yuki's Memories, Conquer the World<br>
   Demon Seals reviewed: 0 of 9 in-game available Demon Seals<br>
   Bounty hints confirmed: N/A yet<br>
-  Last update: Jul 19, 2019<br>
+  Last update: Jul 0, 2019<br>
 </p>
 <hr>
 A full changelog is available in

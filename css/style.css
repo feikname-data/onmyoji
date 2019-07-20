@@ -329,3 +329,15 @@ rt:nth-child(odd) { color: lightcoral; }
 
 tr { display: block; float: left; width: 100%; }
 th, td { display: block; width: auto; }
+
+#search_div {
+	padding-left: 1px;
+	padding-right: 1px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	display: flex;
+	align-items: center;
+}
+#search_div input[type="text"] {
+	flex-grow: 1;
+}
