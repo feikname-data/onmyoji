@@ -32,12 +32,12 @@ function buildSearchIndex() {
 	let DOMTable = document.querySelectorAll("tbody > tr")
 	
 	for(let tableRow of DOMTable) {
-		searchIndex.push(tableRow.dataset.name)
+		searchIndex.push(tableRow.dataset.name.toLowerCase())
 	}
 } 
 
 function searchAndShowResults(e) {
-	var results = searchIndex.filter(a => a.includes(search_box.value))
+	var results = searchIndex.filter(a => a.includes(search_box.value.toLowerCase()))
 	resultsIndexes = []
 	
 	for(result of results) {
