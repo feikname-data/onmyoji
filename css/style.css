@@ -337,7 +337,13 @@ th, td { display: block; width: auto; }
 	margin-bottom: 5px;
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 }
 #search_div input[type="text"] {
 	flex-grow: 1;
+}
+#search_div div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
