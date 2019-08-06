@@ -111,9 +111,9 @@ Possible(certain?) drops include:
 **Official description:** Clear Soul zones.
 
  1. 6 pts
- 2. N/A
- 3. N/A
- 4. N/A
+ 2. 6 pts
+ 3. 6 pts
+ 4. 3 pts
  5. N/A
  6. N/A
  7. N/A
