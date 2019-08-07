@@ -77,7 +77,7 @@ function buildsearchIndex() {
 }
 
 function searchAndShowResults(e) {
-    var shikigamiResults = searchIndexForShikigami.filter(x => x.includes(search_box.value.toLowerCase()))
+    var shikigamiResults = searchIndexForShikigami.filter(x => x.includes(search_box.value.trim().toLowerCase()))
     shikigamiResultsIndexes = []
 
     for(shikigamiResult of shikigamiResults) {
@@ -86,7 +86,7 @@ function searchAndShowResults(e) {
 
     var hintResultsIndexes = []
     for(hint of searchIndexForHints) {
-        if(hint.hints.includes(search_box.value.toLowerCase())) {
+        if(hint.hints.includes(search_box.value.trim().toLowerCase())) {
             let shikigamiIndex = searchIndexForShikigami.indexOf(hint.shikigami)
             hintResultsIndexes.push(shikigamiIndex)
         }
