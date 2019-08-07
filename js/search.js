@@ -104,13 +104,11 @@ function searchAndShowResults(e) {
 
         i++
     }
-	console.log(shikigamiResultsIndexes)
+
     if(shikigamiResultsIndexes.length > 0) {
-		console.log("scrollIntoView1")
         DOMTable[shikigamiResultsIndexes[0]].scrollIntoView()
     }
     if(hintResultsIndexes.length > 0) {
-		console.log("scrollIntoView1")
         DOMTable[hintResultsIndexes[0]].scrollIntoView()
     }
 }
