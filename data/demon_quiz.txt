@@ -51,3 +51,15 @@ Which skill can dispel the debuff on allies? 2019-07-30
 Which skill cannot decrease the damage taken by allies? 2019-07-30
  - Channel: Butterflies
  Quiz reward: 10k Coins
+
+Where did Puppeteer and her brother sleep in the story? 2019-08-06
+ - In the Sanzu River.
+ Quiz reward: 10k Coins
+
+Which content cannot be found in Collection? 2019-08-06
+ - The level of a shikigami
+ Quiz reward: 15 AP
+
+Whose voice comes from a different voice artist? 2019-08-06
+ - Momo
+ Quiz reward: 2 Base Daruma
