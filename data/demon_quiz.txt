@@ -1,9 +1,5 @@
 Other names for Demon Quiz: Secret Letter
 
-Which skill can increase the SPD of allies? 2019-07-25
- - Noxious Spray
- Quiz reward: ?
-
 Hakuro is an expert at... 2019-07-25
  - Archery
  Quiz reward: ?
@@ -12,45 +8,17 @@ What cannot be done under the Onmyoji interface? 2019-07-28
  - Leveling up a shikigami.
  Quiz reward: 10 Jade
 
-Which effect can a 2-piece set of Tree Nympth trigger? 2019-07-30
- - DEF Bonus
+What is Tesso's catchphrase? 2019-07-30
+ - A rat brings riches to your flat.
  Quiz reward: 10k Coins
-
-Which stat is increased after Hakuro enters a meditative state? 2019-07-28
- - Crit DMG
- Quiz reward: 10 Jade
-
-Who cannot fly? 2019-07-28
- - Kusa
- Quiz reward: G1 Moon
 
 Where can you find Paper Dolls? 2019-07-28
  - Everything else.
  Quiz reward: Demon Parade Pass
 
-Who always rides on a pot? 2019-07-28
- - Mouba
- Quiz reward: 10k Coins
-
 Where can you re-experience the unlocked main chapters? 2019-07-30
  - The Sakura Tree in the Courtyard
  Quiz reward: 15 AP
-
-What is Tesso's catchphrase? 2019-07-30
- - A rat brings riches to your flat.
- Quiz reward: 10k Coins
-
-Who killed Inugami's friend, Sparrow, in the story? 2019-07-30
- - Kyuumei Neko
- Quiz reward: 15 AP
-
-Which skill can dispel the debuff on allies? 2019-07-30
- - Sky Tears
- Quiz reward: 10k Coins
-
-Which skill cannot decrease the damage taken by allies? 2019-07-30
- - Channel: Butterflies
- Quiz reward: 10k Coins
 
 Where did Puppeteer and her brother sleep in the story? 2019-08-06
  - In the Sanzu River.
@@ -60,9 +28,9 @@ Which content cannot be found in Collection? 2019-08-06
  - The level of a shikigami
  Quiz reward: 15 AP
 
-Whose voice comes from a different voice artist? 2019-08-06
- - Momo
- Quiz reward: 2 Base Daruma
+Which effect can a 2-piece set of Tree Nympth trigger? 2019-07-30
+ - DEF Bonus
+ Quiz reward: 10k Coins
 
 Which effect can a 4-piece set of Holy Flame trigger? 2019-08-07
  - Restoring HP
@@ -74,4 +42,36 @@ Which item is required for Realm Raid? 2019-08-07
 
 Which quest is not available in the Daily Quest? 2019-08-07
  - Encounter
+ Quiz reward: 2 Base Daruma
+
+Which skill can dispel the debuff on allies? 2019-07-30
+ - Sky Tears
+ Quiz reward: 10k Coins
+
+Which skill can increase the SPD of allies? 2019-07-25
+ - Noxious Spray
+ Quiz reward: ?
+
+Which skill cannot decrease the damage taken by allies? 2019-07-30
+ - Channel: Butterflies
+ Quiz reward: 10k Coins
+
+Which stat is increased after Hakuro enters a meditative state? 2019-07-28
+ - Crit DMG
+ Quiz reward: 10 Jade
+
+Who always rides on a pot? 2019-07-28
+ - Mouba
+ Quiz reward: 10k Coins
+
+Who cannot fly? 2019-07-28
+ - Kusa
+ Quiz reward: G1 Moon
+
+Who killed Inugami's friend, Sparrow, in the story? 2019-07-30
+ - Kyuumei Neko
+ Quiz reward: 15 AP
+
+Whose voice comes from a different voice artist? 2019-08-06
+ - Momo
  Quiz reward: 2 Base Daruma
