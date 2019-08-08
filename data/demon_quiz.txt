@@ -63,3 +63,15 @@ Which content cannot be found in Collection? 2019-08-06
 Whose voice comes from a different voice artist? 2019-08-06
  - Momo
  Quiz reward: 2 Base Daruma
+
+Which effect can a 4-piece set of Holy Flame trigger? 2019-08-07
+ - Restoring HP
+ Quiz reward: 10k Coins
+
+Which item is required for Realm Raid? 2019-08-07
+ - Realm Challenge Pass
+ Quiz reward: 10k Coins
+
+Which quest is not available in the Daily Quest? 2019-08-07
+ - Encounter
+ Quiz reward: 2 Base Daruma
