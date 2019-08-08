@@ -16,12 +16,12 @@ Possible(certain?) drops include:
 **Official description:** Play Duels.
 
  1. 5 pts
- 2. N/A
- 3. N/A
- 4. N/A
- 5. N/A
- 6. N/A
- 7. N/A
+ 2. 5 pts
+ 3. 5 pts
+ 4. 5 pts
+ 5. 5 pts
+ 6. 5 pts
+ 7. 5 pts
  8. N/A
  9. N/A
  10. N/A
