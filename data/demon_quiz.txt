@@ -24,6 +24,10 @@ Where did Puppeteer and her brother sleep in the story? 2019-08-06
  - In the Sanzu River.
  Quiz reward: 10k Coins
 
+Which 4-piece soul set grants orbs at the start of battle? 2019-08-08
+ - Azure Basan
+ Quiz reward: Demon Parade Pass
+
 Which content cannot be found in Collection? 2019-08-06
  - The level of a shikigami
  Quiz reward: 15 AP
@@ -56,9 +60,17 @@ Which skill cannot decrease the damage taken by allies? 2019-07-30
  - Channel: Butterflies
  Quiz reward: 10k Coins
 
+Which skill is an AoE skill? 2019-08-08
+ - Feather Dance
+ Quiz reward: 10k Coins
+
 Which stat is increased after Hakuro enters a meditative state? 2019-07-28
  - Crit DMG
  Quiz reward: 10 Jade
+
+Who abducted Kagura in her dream in the story? 2019-08-08
+ - Kodokushi
+ Quiz reward: 15 AP
 
 Who always rides on a pot? 2019-07-28
  - Mouba
@@ -68,8 +80,16 @@ Who cannot fly? 2019-07-28
  - Kusa
  Quiz reward: G1 Moon
 
+Who did Enma order Seimei to defeat in the story? 2019-08-08
+ - Puppeteer
+ Quiz reward: 10k Coins
+
 Who killed Inugami's friend, Sparrow, in the story? 2019-07-30
  - Kyuumei Neko
+ Quiz reward: 15 AP
+
+Who was abducted to force Seimei to break the Orochi seal? 2019-08-08
+ - Kagura
  Quiz reward: 15 AP
 
 Whose voice comes from a different voice artist? 2019-08-06
