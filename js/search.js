@@ -46,7 +46,7 @@ searchIndexForHints=[
     {"shikigami": "samurai x", "hints": "兵甲, armor, 石化, petrified, hardened, katana"},
     {"shikigami": "ushi no toki", "hints": "木槌, wooden hammer, 藁人形, straw doll, scarecrow, curse nail, cursed dart"},
     {"shikigami": "hitotsume", "hints": "一つ目, one eye, 坊主, monk, 金剛経, diamond sutra"},
-    {"shikigami": "shouzu", "hints": "扇子, fan, 水, water, 貝殻, shell, 尾, tail"},
+    {"shikigami": "shouzu", "hints": "扇子, fan, 水, water, 貝殻, shell, 尻尾, tail"},
     {"shikigami": "ame onna", "hints": "tears, rain, umbrella"},
     {"shikigami": "chocho", "hints": "drum, cute, mini drum, little fairy"},
     {"shikigami": "yamawaro", "hints": "怪力, strong, 石錘, stone hammer, 一つ目, single eye"},
