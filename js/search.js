@@ -14,7 +14,8 @@ function ready() {
 }
 
 function keydown(e) {
-    // Hijack browser's ctrl+F
+    // Hijack browser's ctrl+f
+	// if a capital F is given, i.e. caps lock on: ctrl+F, it won't hijack
     if(e.key == "f" && e.ctrlKey) {
         e.preventDefault()
 
