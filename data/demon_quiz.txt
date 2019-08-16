@@ -7,6 +7,9 @@ What cannot be done under the Onmyoji interface? 2019-07-28
 What is Tesso's catchphrase? 2019-07-30
  - A rat brings riches to your flat.
 
+Where can you earn medals? 2019-08-15
+ - Everything else.
+
 Where can you find Paper Dolls? 2019-07-28
  - Everything else.
 
@@ -40,6 +43,9 @@ Which skill can dispel the debuff on allies? 2019-07-30, 2019-08-14
 Which skill can increase the SPD of allies? 2019-07-25
  - Noxious Spray
 
+Which skill can inflict Silence? 2019-08-15
+ - Silence Drop
+
 Which skill cannot decrease the damage taken by allies? 2019-07-30
  - Channel: Butterflies
 
@@ -61,6 +67,9 @@ Who cannot fly? 2019-07-28
 Who did Enma order Seimei to defeat in the story? 2019-08-08
  - Puppeteer
 
+Who has the most tails? 2019-08-15
+ - Mio
+
 Who killed Inugami's friend, Sparrow, in the story? 2019-07-30
  - Kyuumei Neko
 
@@ -69,10 +78,6 @@ Who was abducted to force Seimei to break the Orochi seal? 2019-08-08
 
 Whose voice comes from a different voice artist? 2019-08-06
  - Momo
-
-Whose can devour nightmares?
- - Yumekui
- 
 ----------
 Syntax:
 QUESTION? FIRST_CONFIRMATION_DATE, LAST_CONFIRMATION_DATE
@@ -80,11 +85,12 @@ QUESTION? FIRST_CONFIRMATION_DATE, LAST_CONFIRMATION_DATE
  (- ANSWER2)
 
 Other names for Demon Quiz: Secret Letter
- 
-Possible quiz rewards: 
+
+Possible quiz rewards:
  * 10 Jade
  * 10k Coins
  * 15 AP
  * 2 Base Daruma
- * Demon Parade Pass 
+ * Demon Parade Pass
  * G1 Moon Realm Card
+ * Shikigami Challenge Pass

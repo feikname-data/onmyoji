@@ -1,6 +1,7 @@
 Hakuro is an expert at...
 What cannot be done under the Onmyoji interface?
 What is Tesso's catchphrase?
+Where can you earn medals?
 Where can you find Paper Dolls?
 Where can you re-experience the unlocked main chapters?
 Where did Puppeteer and her brother sleep in the story?
@@ -12,6 +13,7 @@ Which item is required for Realm Raid?
 Which quest is not available in the Daily Quest?
 Which skill can dispel the debuff on allies?
 Which skill can increase the SPD of allies?
+Which skill can inflict Silence?
 Which skill cannot decrease the damage taken by allies?
 Which skill is an AoE skill?
 Which stat is increased after Hakuro enters a meditative state?
@@ -19,6 +21,7 @@ Who abducted Kagura in her dream in the story?
 Who always rides on a pot?
 Who cannot fly?
 Who did Enma order Seimei to defeat in the story?
+Who has the most tails?
 Who killed Inugami's friend, Sparrow, in the story?
 Who was abducted to force Seimei to break the Orochi seal?
 Whose voice comes from a different voice artist?
