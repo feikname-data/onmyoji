@@ -25,10 +25,10 @@ Which 4-piece soul set grants orbs at the start of battle? 2019-08-08
 Which content cannot be found in Collection? 2019-08-06
  - The level of a shikigami
 
-Which effect can a 2-piece set of Tree Nympth trigger? 2019-07-30
+Which effect can a 2-piece set of Tree Nympth trigger? 2019-07-30, 2019-08-17
  - DEF Bonus
 
-Which effect can a 4-piece set of Holy Flame trigger? 2019-08-07
+Which effect can a 4-piece set of Holy Flame trigger? 2019-08-07, 2019-08-17
  - Restoring HP
 
 Which item is required for Realm Raid? 2019-08-07
@@ -45,6 +45,9 @@ Which skill can increase the SPD of allies? 2019-07-25
 
 Which skill can inflict Silence? 2019-08-15
  - Silence Drop
+
+Which skill can inflict Silence on your enemy? 2019-08-17
+ - Spirit Crush
 
 Which skill cannot decrease the damage taken by allies? 2019-07-30
  - Channel: Butterflies
