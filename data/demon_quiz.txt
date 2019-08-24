@@ -1,6 +1,15 @@
 Hakuro is an expert at... 2019-07-25
  - Archery
 
+Hououka ask Seimei to remove who from the Peacock Forest? 2019-08-23
+ - Yao Bikuni
+
+How can you get a Starlight Sky frame? 2019-08-23
+ - Complete Unlucky Streak: Extreme.
+
+How is Honor earned? 2019-08-23
+ - Duel
+
 What cannot be done under the Onmyoji interface? 2019-07-28
  - Leveling up a shikigami.
 
@@ -25,11 +34,17 @@ Which 4-piece soul set grants orbs at the start of battle? 2019-08-08
 Which content cannot be found in Collection? 2019-08-06
  - The level of a shikigami
 
+Which effect can a 2-piece set of Shadow trigger? 2019-08-23
+ - Crit Bonus
+
 Which effect can a 2-piece set of Tree Nympth trigger? 2019-07-30, 2019-08-17
  - DEF Bonus
 
 Which effect can a 4-piece set of Holy Flame trigger? 2019-08-07, 2019-08-17
  - Restoring HP
+
+Which item can be redeemed at the Mystic Trader? 2019-08-23
+ - Everything else.
 
 Which item is required for Realm Raid? 2019-08-07
  - Realm Challenge Pass
@@ -70,16 +85,25 @@ Who cannot fly? 2019-07-28
 Who did Enma order Seimei to defeat in the story? 2019-08-08
  - Puppeteer
 
+Who doesn't have horns or antlers? 2019-08-23
+ - Shuten Doji
+
 Who has the most tails? 2019-08-15
  - Mio
 
 Who killed Inugami's friend, Sparrow, in the story? 2019-07-30
  - Kyuumei Neko
 
+Who performed a power-consuming ritual to seal Orochi for a while? 2019-08-23
+ - Onmyoji of Kyoto
+
+Who turned Momiji into a cannibal? 2019-08-23
+ - Dark Seimei
+
 Who was abducted to force Seimei to break the Orochi seal? 2019-08-08
  - Kagura
 
-Whose voice comes from a different voice artist? 2019-08-06
+Whose voice comes from a different voice artist? 2019-08-06, 2019-08-23
  - Momo
 ----------
 Syntax:
