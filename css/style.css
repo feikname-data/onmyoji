@@ -268,12 +268,6 @@ h6 {
 	background-color: #fff;
 }
 
-#main-header {
-	-webkit-transition: background-color 0.4s, color 0.4s, transform 0.4s, opacity 0.4s ease-in-out;
-	-moz-transition: background-color 0.4s, color 0.4s, transform 0.4s, opacity 0.4s ease-in-out;
-	transition: background-color 0.4s, color 0.4s, transform 0.4s, opacity 0.4s ease-in-out;
-}
-
 .container {
 	position: relative;
 	width: 80%;
