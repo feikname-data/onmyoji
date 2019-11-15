@@ -58,7 +58,7 @@ searchIndexForHints=[
     {"shikigami": "kyonshi ani", "hints": "蝋燭, candles, 棺桶, coffins"},
     {"shikigami": "puppeteer", "hints": "人形, puppet, 操縦, control"},
     {"shikigami": "momiji", "hints": "a beautiful fairy, accessories"},
-    {"shikigami": "yumekui", "hints": "鈴, bell, 悪夢, nightmare"},
+    {"shikigami": "yumekui", "hints": "鈴, bells, 悪夢, nightmares"},
     {"shikigami": "momo", "hints": "花, flower, 舞, dance"},
     {"shikigami": "mouba", "hints": "お椀, bowl, zither, bitey"},
     {"shikigami": "vampira", "hints": "コウモリ, bat, 血, blood"},
